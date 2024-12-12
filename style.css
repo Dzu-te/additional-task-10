@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 600px;
+  height: 100px;
+  overflow: hidden;
+  background: #9a9898;
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+
+}
+
+.block_1 {
+  background: red;
+  left: 0px;
+}
+
+.block_2 {
+  background: yellow;
+  left: 100px;
+}
+
+.block_3 {
+  background: blue;
+  left: 200px;
+}
+
+.block_4 {
+  background: green;
+  left: 300px;
+}
+
+.block_5 {
+  background: purple;
+  left: 400px;
+}
+
+.block_6 {
+  background: black;
+  left: 500px;
+}
+
+.block_7 {
+  background: red;
+  left: 600px;
+}
+
+.block_8 {
+  background: yellow;
+  left: 700px;
+}
+
+.block_9 {
+  background: blue;
+  left: 800px;
+}
+
+.block_10 {
+  background: green;
+  left: 900px;
+}
+
+.block_11 {
+  background: purple;
+  left: 1000px;
+}
+
+.block_12 {
+  background: black;
+  left: 1100px;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+
+  }
+
+  to {
+    transform: translateX(-600px);
+
+  }
+}
+
+.container:hover .block {
+  animation-play-state: paused;
+}
+
+.block {
+  animation: move linear infinite;
+}
+
+.block_1 {
+  animation-duration: 5s;
+}
+
+.block_2 {
+  animation-duration: 5s;
+}
+
+.block_3 {
+  animation-duration: 5s;
+}
+
+.block_4 {
+  animation-duration: 5s;
+}
+
+.block_5 {
+  animation-duration: 5s;
+}
+
+.block_6 {
+  animation-duration: 5s;
+}
+
+.block_7 {
+  animation-duration: 5s;
+}
+
+.block_8 {
+  animation-duration: 5s;
+}
+
+.block_9 {
+  animation-duration: 5s;
+}
+
+.block_10 {
+  animation-duration: 5s;
+}
+
+.block_11 {
+  animation-duration: 5s;
+}
+
+.block_12 {
+  animation-duration: 5s;
+}
